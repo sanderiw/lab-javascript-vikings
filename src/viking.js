@@ -143,7 +143,6 @@ class War {
     // return msg;
   }
   
-
   showStatus() {
     if (this.saxonArmy.length === 0) {
       return "Vikings have won the war of the century!";
@@ -153,7 +152,7 @@ class War {
       return "Vikings and Saxons are still in the thick of battle.";
     }
   }
-}
+}   
 
 
 // The following is required to make unit tests work.
